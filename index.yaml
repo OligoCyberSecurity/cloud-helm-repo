@@ -1,3 +1,23 @@
 apiVersion: v1
-entries: {}
-generated: "2023-03-05T13:21:26.896837971Z"
+entries:
+  platform:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-03-05T13:26:37.568577878Z"
+    dependencies:
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.11.0
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts/
+      version: 0.24.0
+    description: A Helm chart for Kubernetes
+    digest: 8c895a09f6e329db375e6bdceb849038561f417fa3920a7719961eb5a75271f5
+    name: platform
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/platform-0.0.0.tgz
+    version: 0.0.0
+generated: "2023-03-05T13:26:37.560245356Z"
