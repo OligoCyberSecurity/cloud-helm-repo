@@ -3,7 +3,7 @@ entries:
   platform:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-03-05T13:02:22.095281588Z"
+    created: "2023-03-05T13:21:26.903608677Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -14,10 +14,10 @@ entries:
       repository: https://fluent.github.io/helm-charts/
       version: 0.24.0
     description: A Helm chart for Kubernetes
-    digest: 33f3ad4f71e5ae77ee2c8ea4d9fdf76ff14e92947ae433af27065be72606a00c
+    digest: aa4f86f6f783021001a0905137ea2a10cdb86b712c87a384aa6b8dd01530f476
     name: platform
     type: application
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/platform-0.0.0.tgz
     version: 0.0.0
-generated: "2023-03-05T13:02:22.087289077Z"
+generated: "2023-03-05T13:21:26.896837971Z"
