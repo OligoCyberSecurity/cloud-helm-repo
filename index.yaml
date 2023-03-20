@@ -3,7 +3,26 @@ entries:
   platform:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T14:55:11.601213387Z"
+    created: "2023-03-20T17:05:41.215894284Z"
+    dependencies:
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.5.4
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts/
+      version: 0.24.0
+    description: A Helm chart for Kubernetes
+    digest: e426dd22ef6fc1de5656bf67c47d986a053e08c20a0f06146865cfdb37af150e
+    name: platform
+    type: application
+    urls:
+    - charts/platform-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-20T17:05:41.202337366Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -22,7 +41,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T14:55:11.585982831Z"
+    created: "2023-03-20T17:05:41.18371187Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -41,7 +60,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T14:55:11.568045513Z"
+    created: "2023-03-20T17:05:41.138679201Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -60,7 +79,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2023-03-20T14:55:11.55361459Z"
+    created: "2023-03-20T17:05:41.103751006Z"
     dependencies:
     - condition: cAdvisor.enabled
       name: cadvisor
@@ -87,7 +106,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-03-20T14:55:11.532124243Z"
+    created: "2023-03-20T17:05:41.071177446Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -104,4 +123,4 @@ entries:
     urls:
     - charts/platform-0.0.0.tgz
     version: 0.0.0
-generated: "2023-03-20T14:55:11.513607402Z"
+generated: "2023-03-20T17:05:41.06149118Z"
