@@ -3,7 +3,26 @@ entries:
   platform:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T14:37:01.800419466Z"
+    created: "2023-03-20T14:55:11.601213387Z"
+    dependencies:
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.5.4
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts/
+      version: 0.24.0
+    description: A Helm chart for Kubernetes
+    digest: 8773c66d51d9d68b5c98e0f9291027a6ee77e553d7336b9acd40c7b3424f176b
+    name: platform
+    type: application
+    urls:
+    - charts/platform-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-20T14:55:11.585982831Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -22,7 +41,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T14:37:01.780593434Z"
+    created: "2023-03-20T14:55:11.568045513Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -41,7 +60,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2023-03-20T14:37:01.765324683Z"
+    created: "2023-03-20T14:55:11.55361459Z"
     dependencies:
     - condition: cAdvisor.enabled
       name: cadvisor
@@ -68,7 +87,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-03-20T14:37:01.74484113Z"
+    created: "2023-03-20T14:55:11.532124243Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -85,4 +104,4 @@ entries:
     urls:
     - charts/platform-0.0.0.tgz
     version: 0.0.0
-generated: "2023-03-20T14:37:01.73163368Z"
+generated: "2023-03-20T14:55:11.513607402Z"
