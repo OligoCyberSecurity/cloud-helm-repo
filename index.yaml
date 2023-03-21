@@ -3,7 +3,26 @@ entries:
   platform:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T17:05:41.215894284Z"
+    created: "2023-03-21T10:14:11.463479377Z"
+    dependencies:
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.5.4
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts/
+      version: 0.24.0
+    description: A Helm chart for Kubernetes
+    digest: e0b7c6fb2d4da9b2aef6ce8788863506656626c52239406eafee29ebab376352
+    name: platform
+    type: application
+    urls:
+    - charts/platform-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-21T10:14:11.443344385Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -22,7 +41,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T17:05:41.202337366Z"
+    created: "2023-03-21T10:14:11.417669517Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -41,7 +60,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T17:05:41.18371187Z"
+    created: "2023-03-21T10:14:11.399723794Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -60,7 +79,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-20T17:05:41.138679201Z"
+    created: "2023-03-21T10:14:11.377428014Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -79,7 +98,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2023-03-20T17:05:41.103751006Z"
+    created: "2023-03-21T10:14:11.358188484Z"
     dependencies:
     - condition: cAdvisor.enabled
       name: cadvisor
@@ -106,7 +125,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-03-20T17:05:41.071177446Z"
+    created: "2023-03-21T10:14:11.333033315Z"
     dependencies:
     - condition: cert-manager.enabled
       name: cert-manager
@@ -123,4 +142,4 @@ entries:
     urls:
     - charts/platform-0.0.0.tgz
     version: 0.0.0
-generated: "2023-03-20T17:05:41.06149118Z"
+generated: "2023-03-21T10:14:11.315098217Z"
