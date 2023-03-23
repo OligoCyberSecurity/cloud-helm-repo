@@ -2,6 +2,33 @@ apiVersion: v1
 entries:
   platform:
   - apiVersion: v2
+    appVersion: 0.1.9
+    created: "2023-03-23T14:38:54.962057596Z"
+    dependencies:
+    - condition: cAdvisor.enabled
+      name: cadvisor
+      repository: https://ckotzbauer.github.io/helm-charts
+      version: 2.2.4
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.5.4
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts/
+      version: 0.24.0
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.3.3
+    description: A Helm chart for Kubernetes
+    digest: 47a56dda815e8ca8d17abbfb1d0d35153e7e7741cdd0db782620ace417b8b2f6
+    name: platform
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/platform-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
     appVersion: 0.1.8
     created: "2023-03-23T08:59:59.16354647Z"
     dependencies:
@@ -180,4 +207,4 @@ entries:
     urls:
     - charts/platform-0.0.0.tgz
     version: 0.0.0
-generated: "2023-03-23T08:59:59.149809069Z"
+generated: "2023-03-23T14:38:54.945328051Z"
