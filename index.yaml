@@ -34,7 +34,7 @@ entries:
   platform:
   - apiVersion: v2
     appVersion: 0.1.29
-    created: "2023-05-10T13:07:16.192770559Z"
+    created: "2023-05-10T13:23:18.985836106Z"
     dependencies:
     - condition: cAdvisor.enabled
       name: cadvisor
@@ -53,7 +53,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 3.3.5
     description: A Helm chart for Kubernetes
-    digest: 12e497192037007cfb5ff60fde7fea48e00fa822e745999c0910da8ecb27dba8
+    digest: 3ec0cefc9b7f5a97648e58175aeb3eb76790dd5d6fd23641be4b28b95d5f71c8
     name: platform
     type: application
     urls:
@@ -778,4 +778,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/platform-0.0.0.tgz
     version: 0.0.0
-generated: "2023-05-10T13:07:16.175113752Z"
+generated: "2023-05-10T13:23:18.97206486Z"
