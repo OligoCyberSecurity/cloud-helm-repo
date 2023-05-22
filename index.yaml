@@ -1013,12 +1013,12 @@ entries:
   sensor-deployment:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-05-22T11:35:12.379638971Z"
+    created: "2023-05-22T11:35:35.156885859Z"
     description: A Helm chart for Kubernetes
-    digest: 27d8db8838907f3bc3e1ed9b342647a22f0076176743afe6f613be53e009687c
+    digest: 954b9895b26e5c8d55921f0319405da618fafa4a1a6fda52e6bf54684eacf7b1
     name: sensor-deployment
     type: application
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-05-22T11:35:12.379034366Z"
+generated: "2023-05-22T11:35:35.15637076Z"
