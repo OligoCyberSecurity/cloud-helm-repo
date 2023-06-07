@@ -81,22 +81,6 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/gateway-0.0.0.tgz
     version: 0.0.0
-  platform:
-  - apiVersion: v2
-    appVersion: 0.1.57
-    created: "2023-06-07T14:18:14.50465704Z"
-    dependencies:
-    - condition: cert-manager.enabled
-      name: cert-manager
-      repository: https://charts.jetstack.io
-      version: v1.5.4
-    description: A Helm chart for Kubernetes
-    digest: 721418042b78832c64bed142451886e8cff56cbc6386a5e51bebb55775cf0b66
-    name: platform
-    type: application
-    urls:
-    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/platform-0.1.57.tgz
-    version: 0.1.57
   - apiVersion: v2
     appVersion: 0.1.56
     created: "2023-06-06T09:46:10.756419873Z"
