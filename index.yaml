@@ -1483,12 +1483,12 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-06-12T12:28:39.747624321Z"
+    created: "2023-06-15T13:25:12.616391864Z"
     description: A Helm chart for Kubernetes
-    digest: e4b6025cced7679404fcbd63aafbd2b0a425d406e9cd11514adb91826a3957f3
+    digest: 4150c52787cf82239f4292921d46cec410d160c13a829acfeb42d9107733d07f
     name: sensor-deployment
     type: application
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-06-15T13:25:02.539578713Z"
+generated: "2023-06-15T13:25:12.615864255Z"
