@@ -139,6 +139,21 @@ entries:
     version: 0.0.0
   platform:
   - apiVersion: v2
+    appVersion: 0.1.95
+    created: "2023-07-20T12:51:11.994936491Z"
+    dependencies:
+    - condition: cert-manager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.5.4
+    description: A Helm chart for Kubernetes
+    digest: 8233ef187b44debe9e6a8db7af2a09dc6515e6871852a4f0796a28e4ce9b8deb
+    name: platform
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/platform-0.1.95.tgz
+    version: 0.1.95
+  - apiVersion: v2
     appVersion: 0.1.94
     created: "2023-07-20T09:44:41.554716872Z"
     dependencies:
@@ -1992,4 +2007,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-07-20T09:44:41.543057029Z"
+generated: "2023-07-20T12:51:11.981679943Z"
