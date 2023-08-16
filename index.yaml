@@ -89,14 +89,14 @@ entries:
   detection-etl:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-08-13T11:11:39.420718254Z"
+    created: "2023-08-16T13:22:46.981995947Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
       repository: https://fluent.github.io/helm-charts/
       version: 0.21.6
     description: A Helm chart for Kubernetes
-    digest: c09079b8908144580aed82a16be7fd5d99689d3353281c4dfd22f6169c1e9aa6
+    digest: c1c7bbc86c4703ce327dca633dd1f7d49acd9c2fb4d1f7b975573ed629a74d39
     name: detection-etl
     type: application
     urls:
@@ -2348,4 +2348,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-08-16T13:18:56.631026977Z"
+generated: "2023-08-16T13:22:46.977745519Z"
