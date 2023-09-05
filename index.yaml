@@ -129,6 +129,20 @@ entries:
     version: 0.2.3
   backend-api:
   - apiVersion: v2
+    appVersion: "664"
+    created: "2023-09-05T08:21:50.09391632Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: dc45fa06573a6cf41cdd168450104c3a6e8ea442d06c164b9a9c7254a37866c3
+    name: backend-api
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-api-664.tgz
+    version: "664"
+  - apiVersion: v2
     appVersion: "663"
     created: "2023-09-04T14:55:01.826445518Z"
     dependencies:
@@ -4030,4 +4044,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-09-04T14:55:01.825425394Z"
+generated: "2023-09-05T08:21:50.092984171Z"
