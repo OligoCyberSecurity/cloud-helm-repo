@@ -1092,6 +1092,20 @@ entries:
     version: 0.2.3
   cronjobs:
   - apiVersion: v2
+    appVersion: "183"
+    created: "2023-09-07T14:30:06.846391567Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: da6cf8efaad213a541198d094c8af48ab2340713ec6d97135109f7eb10e36750
+    name: cronjobs
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/cronjobs-183.tgz
+    version: "183"
+  - apiVersion: v2
     appVersion: "181"
     created: "2023-09-07T13:19:37.88347897Z"
     dependencies:
@@ -4928,4 +4942,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-09-07T14:27:26.042153574Z"
+generated: "2023-09-07T14:30:06.845690637Z"
