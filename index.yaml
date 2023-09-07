@@ -759,6 +759,21 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-identity-0.2.3.tgz
     version: 0.2.3
+  backoffice:
+  - apiVersion: v2
+    appVersion: "2"
+    created: "2023-09-07T12:12:49.354403314Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 5a5b01734584321576aec56d94ed004a0b80f445b4569e90ebb0eff6a99ada0c
+    name: backoffice
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backoffice-2.tgz
+    version: "2"
   common:
   - apiVersion: v2
     appVersion: 0.2.11
@@ -4745,4 +4760,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-09-07T12:05:43.467480467Z"
+generated: "2023-09-07T12:12:49.353613805Z"
