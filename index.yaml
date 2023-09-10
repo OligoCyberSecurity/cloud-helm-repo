@@ -648,6 +648,20 @@ entries:
     version: 0.2.3
   backend-identity:
   - apiVersion: v2
+    appVersion: "247"
+    created: "2023-09-10T06:43:35.183577845Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 721083b9f59ee91d55c41c0f8bf1d53d659465f115be2c50a3f0293417db2ac5
+    name: backend-identity
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-identity-247.tgz
+    version: "247"
+  - apiVersion: v2
     appVersion: "241"
     created: "2023-09-07T14:32:11.523612505Z"
     dependencies:
@@ -5082,4 +5096,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-09-10T06:41:18.774414665Z"
+generated: "2023-09-10T06:43:35.181722814Z"
