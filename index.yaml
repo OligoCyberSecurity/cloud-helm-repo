@@ -2559,6 +2559,20 @@ entries:
     version: 0.2.3
   etl:
   - apiVersion: v2
+    appVersion: "664"
+    created: "2023-09-11T13:15:00.501446348Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 1937e249c591802f55e07ce66e002065c16787ab79616588511edf299b66389c
+    name: etl
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/etl-664.tgz
+    version: "664"
+  - apiVersion: v2
     appVersion: "663"
     created: "2023-09-11T09:56:52.663887604Z"
     dependencies:
@@ -6202,4 +6216,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-09-11T13:12:47.252866198Z"
+generated: "2023-09-11T13:15:00.500085136Z"
