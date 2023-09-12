@@ -4007,6 +4007,20 @@ entries:
     version: 0.0.0
   issues-service:
   - apiVersion: v2
+    appVersion: "373"
+    created: "2023-09-12T13:16:19.803991904Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 530d4fe882f8ae71fa1e170e0a5da35adddf037c7430d71d22606febbd6473c2
+    name: issues-service
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/issues-service-373.tgz
+    version: "373"
+  - apiVersion: v2
     appVersion: "372"
     created: "2023-09-12T12:59:55.403496104Z"
     dependencies:
@@ -6917,4 +6931,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-09-12T13:14:02.780593402Z"
+generated: "2023-09-12T13:16:19.8017084Z"
