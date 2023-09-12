@@ -1559,6 +1559,20 @@ entries:
     version: 0.2.3
   backoffice:
   - apiVersion: v2
+    appVersion: "27"
+    created: "2023-09-12T10:38:07.33847991Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 636bf2d984df4d5b95f508e561d3c91b391ee69437c4545fb35ec8a2035a7c21
+    name: backoffice
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backoffice-27.tgz
+    version: "27"
+  - apiVersion: v2
     appVersion: "26"
     created: "2023-09-12T09:41:14.591156415Z"
     dependencies:
@@ -6567,4 +6581,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-09-12T10:35:57.492613457Z"
+generated: "2023-09-12T10:38:07.335540085Z"
