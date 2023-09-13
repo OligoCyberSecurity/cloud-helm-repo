@@ -2,6 +2,20 @@ apiVersion: v1
 entries:
   auth-proxy:
   - apiVersion: v2
+    appVersion: "308"
+    created: "2023-09-13T09:21:09.555723432Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: c4b2c3dd2a89be19281bbdbad4720e188734a0edf3bdf39401a665a885a2efa7
+    name: auth-proxy
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/auth-proxy-308.tgz
+    version: "308"
+  - apiVersion: v2
     appVersion: "307"
     created: "2023-09-13T08:32:19.252356246Z"
     dependencies:
@@ -7183,4 +7197,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-09-13T09:19:03.320647344Z"
+generated: "2023-09-13T09:21:09.554904511Z"
