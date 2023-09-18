@@ -534,6 +534,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/auth-proxy-273.tgz
     version: "273"
   - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.065466085Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 3bed61084fa382406987f6b057c99f9ee8810f054df95bbf08c927c3ca39aa7e
+    name: auth-proxy
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/auth-proxy-0.2.13.tgz
+    version: 0.2.13
+  - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.687895025Z"
     dependencies:
@@ -1417,6 +1431,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-api-662.tgz
     version: "662"
   - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.066158151Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: e30cc9f35205fa7d13fcb3cd7b6583b3f959a4dc640e02268f189ea9210a6623
+    name: backend-api
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-api-0.2.13.tgz
+    version: 0.2.13
+  - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.688699629Z"
     dependencies:
@@ -2034,6 +2062,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-identity-230.tgz
     version: "230"
   - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.066791012Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 791e75eb53e67c7de8e2232ce27581a87fa6c76949b6dc99cf11a8dc2a649048
+    name: backend-identity
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-identity-0.2.13.tgz
+    version: 0.2.13
+  - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.689285932Z"
     dependencies:
@@ -2525,6 +2567,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backoffice-2.tgz
     version: "2"
   - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.067408071Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 861f489b6c93e16c410ce0553cf4b54cba877ba947954829fdf2cce1310a2803
+    name: backoffice
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backoffice-0.2.13.tgz
+    version: 0.2.13
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2023-09-14T15:34:17.568365288Z"
     dependencies:
@@ -2559,6 +2615,16 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/common-1.0.0-2d6107b1.tgz
     version: 1.0.0-2d6107b1
+  - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.06760359Z"
+    description: A Helm chart for Kubernetes
+    digest: ab0c6d128e0378b6a12bc05d4bdf91be996cae60febc6298edf1f7640cbb5ee9
+    name: common
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/common-0.2.13.tgz
+    version: 0.2.13
   - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.689499633Z"
@@ -2660,6 +2726,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/common-0.1.2.tgz
     version: 0.1.2
   common-configmaps:
+  - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.06802603Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: d4b783d9861a4eea7ca9bd75264b2933ae4ebe1933edf9c5f20f8cf965d21689
+    name: common-configmaps
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/common-configmaps-0.2.13.tgz
+    version: 0.2.13
   - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.689874235Z"
@@ -3362,6 +3442,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/cronjobs-167.tgz
     version: "167"
   - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.068404166Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 76d62ce6419e8852a1d624beb5eb8d0f590bc6bbc16ec012b6229339b6279673
+    name: cronjobs
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/cronjobs-0.2.13.tgz
+    version: 0.2.13
+  - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.690213237Z"
     dependencies:
@@ -3638,6 +3732,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/detection-etl-0.0.0.tgz
     version: 0.0.0
   docs:
+  - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.068983321Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: f0d56f610838754fec38ecabe98396d1b50e1b836f23d1828b0e6c37988bc932
+    name: docs
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/docs-0.2.13.tgz
+    version: 0.2.13
   - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.69067744Z"
@@ -4340,6 +4448,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/etl-1.0.0-2d6107b1.tgz
     version: 1.0.0-2d6107b1
   - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.069541675Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: e6119360b6026dd2e8ff82bb873ae153f349d00a844d1c8ba97df94fbd1f94bf
+    name: etl
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/etl-0.2.13.tgz
+    version: 0.2.13
+  - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.691109642Z"
     dependencies:
@@ -4480,6 +4602,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/etl-0.0.0.tgz
     version: 0.0.0
   frontend:
+  - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.07011623Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: a26acea8044ec447f6861b5a0a75fc53a0fcec149aa742a963a7e08011474f4d
+    name: frontend
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/frontend-0.2.13.tgz
+    version: 0.2.13
   - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.691564044Z"
@@ -5367,6 +5503,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/issues-service-330.tgz
     version: "330"
   - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.071194933Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 093404cf02aa0626986bcac4a555e188dbd9c89501bab8483f3d9aa5cc5bd0a1
+    name: issues-service
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/issues-service-0.2.13.tgz
+    version: 0.2.13
+  - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.692042547Z"
     dependencies:
@@ -5508,6 +5658,20 @@ entries:
     version: 0.0.0
   jobs:
   - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.071756086Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 43b5f78c8b6151b56661c9453adfa5fc6cdf8cf483987931945ef172eb9d726b
+    name: jobs
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/jobs-0.2.13.tgz
+    version: 0.2.13
+  - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.692468949Z"
     dependencies:
@@ -5648,6 +5812,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/jobs-0.0.0.tgz
     version: 0.0.0
   keycloak:
+  - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.072937099Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: b140deec0a42f2762fb8978af6a956b294bfee931bd4a3680e856e9d20c69df9
+    name: keycloak
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/keycloak-0.2.13.tgz
+    version: 0.2.13
   - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.693048952Z"
@@ -7709,6 +7887,20 @@ entries:
     version: 0.0.0
   proxy:
   - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.073438547Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 7e410bc232244f378552a3055ac7976d7d9c1778e64b24814170692c960315e0
+    name: proxy
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/proxy-0.2.13.tgz
+    version: 0.2.13
+  - apiVersion: v2
     appVersion: 0.2.11
     created: "2023-08-28T10:21:17.693475055Z"
     dependencies:
@@ -7927,4 +8119,19 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/sensor-deployment-0.0.0.tgz
     version: 0.0.0
-generated: "2023-09-18T11:05:07.968777281Z"
+  storybook:
+  - apiVersion: v2
+    appVersion: 0.2.13
+    created: "2023-09-18T11:06:53.074006001Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: ec0958b5d186122cf5f248061444afd2d20233fe7db4753a720019827613b161
+    name: storybook
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
+    version: 0.2.13
+generated: "2023-09-18T11:06:53.064456289Z"
