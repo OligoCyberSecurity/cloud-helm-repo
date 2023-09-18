@@ -4096,6 +4096,20 @@ entries:
     version: 0.0.0
   etl:
   - apiVersion: v2
+    appVersion: "688"
+    created: "2023-09-18T14:27:53.547707436Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 65a4c62511b3b6b4e2c1e9951fcfb2d556d9aacf990871344ad488b42ac342d9
+    name: etl
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/etl-688.tgz
+    version: "688"
+  - apiVersion: v2
     appVersion: "687"
     created: "2023-09-18T14:10:50.488966201Z"
     dependencies:
@@ -8426,4 +8440,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
     version: 0.2.13
-generated: "2023-09-18T14:25:41.869452343Z"
+generated: "2023-09-18T14:27:53.546078513Z"
