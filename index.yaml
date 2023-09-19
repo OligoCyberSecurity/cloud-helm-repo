@@ -1782,6 +1782,20 @@ entries:
     version: 0.0.0
   backend-identity:
   - apiVersion: v2
+    appVersion: "291"
+    created: "2023-09-19T07:09:05.057161473Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 659f5ae970a8e931ddd5430ac89777a1d8318d31fc1e95c4d10d49de768827ab
+    name: backend-identity
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-identity-291.tgz
+    version: "291"
+  - apiVersion: v2
     appVersion: "290"
     created: "2023-09-18T14:46:43.82847042Z"
     dependencies:
@@ -8688,4 +8702,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
     version: 0.2.13
-generated: "2023-09-19T07:06:29.696927496Z"
+generated: "2023-09-19T07:09:05.055848376Z"
