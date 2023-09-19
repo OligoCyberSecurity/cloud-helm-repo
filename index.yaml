@@ -2950,6 +2950,16 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/common-1.0.0-b7e147ce.tgz
     version: 1.0.0-b7e147ce
   - apiVersion: v2
+    appVersion: ae71f0e0
+    created: "2023-09-19T14:48:10.997499957Z"
+    description: A Helm chart for Kubernetes
+    digest: 9a73135d019a04598d9b79c56180c962f98dfef02cb1c23bf3b140ccefac8f6b
+    name: common
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/common-1.0.0-ae71f0e0.tgz
+    version: 1.0.0-ae71f0e0
+  - apiVersion: v2
     appVersion: 80d53c5f
     created: "2023-09-18T14:54:44.582829289Z"
     description: A Helm chart for Kubernetes
@@ -3885,6 +3895,20 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/cronjobs-167.tgz
     version: "167"
+  - apiVersion: v2
+    appVersion: ae71f0e0
+    created: "2023-09-19T14:48:10.99795996Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 00ef44325d5344bd45386b93e4977b4c2733b57b7cd6cb3f5353f99fb1370f1b
+    name: cronjobs
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/cronjobs-1.0.0-ae71f0e0.tgz
+    version: 1.0.0-ae71f0e0
   - apiVersion: v2
     appVersion: 0.2.13
     created: "2023-09-18T11:06:53.068404166Z"
@@ -8803,4 +8827,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
     version: 0.2.13
-generated: "2023-09-19T14:18:54.580227312Z"
+generated: "2023-09-19T14:48:10.997141254Z"
