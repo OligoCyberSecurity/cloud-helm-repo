@@ -3549,6 +3549,20 @@ entries:
     version: 0.0.0
   backoffice-ui:
   - apiVersion: v2
+    appVersion: dbaa3520
+    created: "2023-10-01T13:14:51.052469632Z"
+    dependencies:
+    - name: common
+      repository: https://oligocybersecurity.github.io/cloud-helm-repo
+      version: ^1.0.0-0
+    description: A Helm chart for Kubernetes
+    digest: 874657d05d1acdf35a3711de5477cf5e0fad191cdb17b45152cc81925b727e0b
+    name: backoffice-ui
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backoffice-ui-1.0.0-dbaa3520.tgz
+    version: 1.0.0-dbaa3520
+  - apiVersion: v2
     appVersion: cdf73eac
     created: "2023-09-27T14:30:38.624900938Z"
     dependencies:
@@ -6875,6 +6889,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/frontend-1.0.0-f29684e5.tgz
     version: 1.0.0-f29684e5
   - apiVersion: v2
+    appVersion: dbaa3520
+    created: "2023-10-01T13:14:51.053012032Z"
+    dependencies:
+    - name: common
+      repository: https://oligocybersecurity.github.io/cloud-helm-repo
+      version: ^1.0.0-0
+    description: A Helm chart for Kubernetes
+    digest: 3fcfd1f7aafd6dc77dc0822580b4400ac3c73ef043ba049ccdff1eb6b16472e0
+    name: frontend
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/frontend-1.0.0-dbaa3520.tgz
+    version: 1.0.0-dbaa3520
+  - apiVersion: v2
     appVersion: cdf73eac
     created: "2023-09-27T14:30:38.625420737Z"
     dependencies:
@@ -8490,6 +8518,20 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/keycloak-1.0.0-f29684e5.tgz
     version: 1.0.0-f29684e5
+  - apiVersion: v2
+    appVersion: dbaa3520
+    created: "2023-10-01T13:14:51.053554532Z"
+    dependencies:
+    - name: common
+      repository: https://oligocybersecurity.github.io/cloud-helm-repo
+      version: ^1.0.0-0
+    description: A Helm chart for Kubernetes
+    digest: 1b44f2fc83af822d3a2b56681fc9a2bf5f86e92c2aadefc52f80569f7e1fadc8
+    name: keycloak
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/keycloak-1.0.0-dbaa3520.tgz
+    version: 1.0.0-dbaa3520
   - apiVersion: v2
     appVersion: cdf73eac
     created: "2023-09-27T14:30:38.625978137Z"
@@ -10967,6 +11009,20 @@ entries:
     version: 0.0.0
   storybook:
   - apiVersion: v2
+    appVersion: dbaa3520
+    created: "2023-10-01T13:14:51.054030832Z"
+    dependencies:
+    - name: common
+      repository: https://oligocybersecurity.github.io/cloud-helm-repo
+      version: ^1.0.0-0
+    description: A Helm chart for Kubernetes
+    digest: 780e829ab4050b7f476cda457153e7fae4543affada073450ccf65b8bd215933
+    name: storybook
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-1.0.0-dbaa3520.tgz
+    version: 1.0.0-dbaa3520
+  - apiVersion: v2
     appVersion: c9df738c
     created: "2023-09-28T11:11:57.100794768Z"
     dependencies:
@@ -11036,4 +11092,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
     version: 0.2.13
-generated: "2023-10-01T11:04:03.77970323Z"
+generated: "2023-10-01T13:14:51.04815153Z"
