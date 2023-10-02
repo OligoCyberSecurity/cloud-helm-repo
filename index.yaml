@@ -7631,13 +7631,13 @@ entries:
     version: 3.5.2
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-10-01T13:58:28.999559108Z"
+    created: "2023-10-02T08:41:43.966540513Z"
     dependencies:
     - name: common
       repository: https://oligocybersecurity.github.io/cloud-helm-repo/
       version: 0.x.x
     description: A Helm chart for Kubernetes
-    digest: e9102aae9b01101dd0e5e44175dc16a2d392a5dbcf0df28c28fbae2ece1d8dee
+    digest: c0a8541c1b8d6ff9cf10f9d0ee655e51c20aff0bf26d0cde678cb0aee2b68626
     name: gateway
     type: application
     urls:
@@ -11396,4 +11396,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
     version: 0.2.13
-generated: "2023-10-01T14:57:52.044940366Z"
+generated: "2023-10-02T08:41:43.965673898Z"
