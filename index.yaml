@@ -3871,6 +3871,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backoffice-ui-1.0.0-38f0c9d1.tgz
     version: 1.0.0-38f0c9d1
   - apiVersion: v2
+    appVersion: 33806b20
+    created: "2023-10-03T13:14:08.76087758Z"
+    dependencies:
+    - name: common
+      repository: https://oligocybersecurity.github.io/cloud-helm-repo
+      version: ^1.0.0-0
+    description: A Helm chart for Kubernetes
+    digest: e533ab0bf96a3980551f7ee9ec933d1984d145e25eb6c72503516fdf8bc99420
+    name: backoffice-ui
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backoffice-ui-1.0.0-33806b20.tgz
+    version: 1.0.0-33806b20
+  - apiVersion: v2
     appVersion: 1b83afad
     created: "2023-09-27T13:12:21.581009647Z"
     dependencies:
@@ -11738,4 +11752,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
     version: 0.2.13
-generated: "2023-10-03T09:44:31.287665627Z"
+generated: "2023-10-03T13:14:08.759976669Z"
