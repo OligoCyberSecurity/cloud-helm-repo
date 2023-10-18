@@ -632,6 +632,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/auth-proxy-273.tgz
     version: "273"
   - apiVersion: v2
+    appVersion: fedb43bb
+    created: "2023-10-18T10:03:35.108770288Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: bcdee8775bec4356576c0c42ee9008ea4147e1ee1d99e4a8e86687b1bab02fdd
+    name: auth-proxy
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/auth-proxy-1.0.0-fedb43bb.tgz
+    version: 1.0.0-fedb43bb
+  - apiVersion: v2
     appVersion: f4389ec2
     created: "2023-10-16T12:44:58.969806545Z"
     dependencies:
@@ -5099,6 +5113,16 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/common-1.0.0-fff9cbd2.tgz
     version: 1.0.0-fff9cbd2
+  - apiVersion: v2
+    appVersion: fedb43bb
+    created: "2023-10-18T10:03:35.110226296Z"
+    description: A Helm chart for Kubernetes
+    digest: 9fb0b9ca5f87efa2b9e5c1e90b684ff387cdd89e534d8f94daae528393d99baf
+    name: common
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/common-1.0.0-fedb43bb.tgz
+    version: 1.0.0-fedb43bb
   - apiVersion: v2
     appVersion: fdf167c5
     created: "2023-09-21T13:12:23.694720315Z"
@@ -15135,4 +15159,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
     version: 0.2.13
-generated: "2023-10-18T09:01:30.237690496Z"
+generated: "2023-10-18T10:03:35.107930484Z"
