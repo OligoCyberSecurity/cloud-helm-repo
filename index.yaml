@@ -1010,6 +1010,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/auth-proxy-1.0.0-2b224676.tgz
     version: 1.0.0-2b224676
   - apiVersion: v2
+    appVersion: 1fd5bb46
+    created: "2023-10-19T12:49:12.068940337Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: adb93f7f54d8985edb5166990e804b617db187c13a5fc1f75026abf7ffd8d5d4
+    name: auth-proxy
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/auth-proxy-1.0.0-1fd5bb46.tgz
+    version: 1.0.0-1fd5bb46
+  - apiVersion: v2
     appVersion: 1eb58b8d
     created: "2023-10-15T14:59:40.762798363Z"
     dependencies:
@@ -2552,6 +2566,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-api-1.0.0-26cc3319.tgz
     version: 1.0.0-26cc3319
   - apiVersion: v2
+    appVersion: 1fd5bb46
+    created: "2023-10-19T12:49:12.070610452Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 97168a5c349dcc0397c9aa92ac4e5b7704b71aa97992ace233842ae3410c60cb
+    name: backend-api
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-api-1.0.0-1fd5bb46.tgz
+    version: 1.0.0-1fd5bb46
+  - apiVersion: v2
     appVersion: 1eb58b8d
     created: "2023-10-15T14:59:40.76341717Z"
     dependencies:
@@ -3715,6 +3743,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-identity-1.0.0-2b224676.tgz
     version: 1.0.0-2b224676
   - apiVersion: v2
+    appVersion: 1fd5bb46
+    created: "2023-10-19T12:49:12.071364959Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 72c4098d685839e0cc13c8e808f94c35bf685c2ff23db7ce125bff43832d3da0
+    name: backend-identity
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backend-identity-1.0.0-1fd5bb46.tgz
+    version: 1.0.0-1fd5bb46
+  - apiVersion: v2
     appVersion: 1eb58b8d
     created: "2023-10-15T14:59:40.764080677Z"
     dependencies:
@@ -4695,6 +4737,20 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backoffice-1.0.0-2b224676.tgz
     version: 1.0.0-2b224676
+  - apiVersion: v2
+    appVersion: 1fd5bb46
+    created: "2023-10-19T12:49:12.071997364Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 865a202bfe8216f71dccc8bf7700ad91b81f53acaa9419a7629cdd386ee5ec9a
+    name: backoffice
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/backoffice-1.0.0-1fd5bb46.tgz
+    version: 1.0.0-1fd5bb46
   - apiVersion: v2
     appVersion: 1eb58b8d
     created: "2023-10-15T14:59:40.764655584Z"
@@ -5907,6 +5963,16 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/common-1.0.0-26cc3319.tgz
     version: 1.0.0-26cc3319
+  - apiVersion: v2
+    appVersion: 1fd5bb46
+    created: "2023-10-19T12:49:12.072229766Z"
+    description: A Helm chart for Kubernetes
+    digest: e5095bb29c335fe8ac65fe04e5584fc59000b911a1518a5a592c77db6b0b9810
+    name: common
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/common-1.0.0-1fd5bb46.tgz
+    version: 1.0.0-1fd5bb46
   - apiVersion: v2
     appVersion: 1eb58b8d
     created: "2023-10-15T14:59:40.764851186Z"
@@ -7635,6 +7701,20 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/cronjobs-1.0.0-2b224676.tgz
     version: 1.0.0-2b224676
+  - apiVersion: v2
+    appVersion: 1fd5bb46
+    created: "2023-10-19T12:49:12.072585969Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: f83bb64d06698feac158019165375f63d98deb603d220f2f00c3c742b35c7c2a
+    name: cronjobs
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/cronjobs-1.0.0-1fd5bb46.tgz
+    version: 1.0.0-1fd5bb46
   - apiVersion: v2
     appVersion: 1eb58b8d
     created: "2023-10-15T14:59:40.76520729Z"
@@ -9374,6 +9454,20 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/etl-1.0.0-2b224676.tgz
     version: 1.0.0-2b224676
+  - apiVersion: v2
+    appVersion: 1fd5bb46
+    created: "2023-10-19T12:49:12.073183675Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: 4c7d2a0f610f3773e6c2ca0a39f1428663da75525cdbe70a2207dcac6b2c4a4c
+    name: etl
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/etl-1.0.0-1fd5bb46.tgz
+    version: 1.0.0-1fd5bb46
   - apiVersion: v2
     appVersion: 1eb58b8d
     created: "2023-10-15T14:59:40.765679895Z"
@@ -11969,6 +12063,20 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/issues-service-1.0.0-2b224676.tgz
     version: 1.0.0-2b224676
+  - apiVersion: v2
+    appVersion: 1fd5bb46
+    created: "2023-10-19T12:49:12.07375108Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 0.x.x
+    description: A Helm chart for Kubernetes
+    digest: f15128f4913f1aae3f9d580a0917e69c45834566c354a25e9219545429e5f5bd
+    name: issues-service
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/issues-service-1.0.0-1fd5bb46.tgz
+    version: 1.0.0-1fd5bb46
   - apiVersion: v2
     appVersion: 1eb58b8d
     created: "2023-10-15T14:59:40.7661602Z"
@@ -15469,4 +15577,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
     version: 0.2.13
-generated: "2023-10-19T12:25:50.132503909Z"
+generated: "2023-10-19T12:49:12.067482924Z"
