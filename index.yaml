@@ -10674,6 +10674,20 @@ entries:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/frontend-1.0.0-80bc67b3.tgz
     version: 1.0.0-80bc67b3
   - apiVersion: v2
+    appVersion: 7ff205ac
+    created: "2023-10-22T10:13:33.076869072Z"
+    dependencies:
+    - name: common
+      repository: https://oligocybersecurity.github.io/cloud-helm-repo
+      version: ^1.0.0-0
+    description: A Helm chart for Kubernetes
+    digest: 0aebdde5f434951a3e5c1f9eb96b7935aa03567b08c9d121d0b718afedfe745e
+    name: frontend
+    type: application
+    urls:
+    - https://oligocybersecurity.github.io/cloud-helm-repo/charts/frontend-1.0.0-7ff205ac.tgz
+    version: 1.0.0-7ff205ac
+  - apiVersion: v2
     appVersion: 65f8e3b5
     created: "2023-10-10T14:28:42.032894926Z"
     dependencies:
@@ -16179,4 +16193,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
     version: 0.2.13
-generated: "2023-10-22T09:59:47.823625817Z"
+generated: "2023-10-22T10:13:33.07611546Z"
