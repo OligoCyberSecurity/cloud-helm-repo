@@ -9204,14 +9204,14 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-10-25T11:42:00.28309218Z"
+    created: "2023-10-26T11:38:15.055641354Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
       repository: https://fluent.github.io/helm-charts/
       version: 0.21.6
     description: A Helm chart for Kubernetes
-    digest: d77648f86b055ace30b99f71c19743632cbf16f6e342b3d0f99b499244f656a2
+    digest: cfbbfc639dddd3e2261e2a7f09719eddc7ea4341a8adf82453dc7201566004b9
     name: detection-etl
     type: application
     urls:
@@ -17260,4 +17260,4 @@ entries:
     urls:
     - https://oligocybersecurity.github.io/cloud-helm-repo/charts/storybook-0.2.13.tgz
     version: 0.2.13
-generated: "2023-10-26T11:27:48.978955132Z"
+generated: "2023-10-26T11:38:15.052966321Z"
